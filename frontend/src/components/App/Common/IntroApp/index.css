@@ -1,0 +1,31 @@
+.descip-app {
+  display: table-cell;
+  vertical-align: middle; }
+  .descip-app .title {
+    color: #383838;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 4px; }
+  .descip-app .title-big {
+    margin-bottom: 34px;
+    color: #8BC24A;
+    font-size: 42px;
+    line-height: 49px;
+    font-weight: 700; }
+  .descip-app .text {
+    color: #696969;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px; }
+
+.col-descrp-app {
+  display: table;
+  height: 480px; }
+  @media (max-width: 767px) {
+    .col-descrp-app {
+      height: auto;
+      margin-bottom: 56px; } }
+
+@media (max-width: 767px) {
+  .app-imagemb {
+    height: 100% !important; } }
